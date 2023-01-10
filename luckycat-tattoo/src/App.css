@@ -105,7 +105,7 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
-  left: -200px;
+  left: -110px;
 }
 
 .blocks {
@@ -140,7 +140,7 @@ section {
 }
 
 .block[data-block-section="2"].init {
-  left: calc(100vw - 16rem);
+  left: calc(100vw - 4rem);
 }
 
 .block[data-block-section="2"].fixed {
@@ -149,14 +149,14 @@ section {
 }
 
 .block[data-block-section="3"].init {
-  left: calc(100vw - 12rem);
+  left: calc(100vw - 4rem);
 }
 
 .block[data-block-section="3"].fixed {
   left: 8rem;
 }
 
-.block[data-block-section="4"].init {
+/* .block[data-block-section="4"].init {
   left: calc(100vw - 8rem);
 }
 
@@ -170,7 +170,7 @@ section {
 
 .block[data-block-section="5"].fixed {
   left: 16rem;
-}
+} */
 
 .block__title {
   position: relative;

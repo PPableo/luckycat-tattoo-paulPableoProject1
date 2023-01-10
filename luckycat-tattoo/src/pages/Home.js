@@ -54,28 +54,29 @@ const Home = () => {
         <div className="block__number">01</div>
       </div>
       <div className="block init" data-block-section="2" data-href="collection">
-        <div className="block__title">Collection</div>
+        <div className="block__title">book</div>
         <div className="block__number">02</div>
       </div>
       <div className="block init" data-block-section="3" data-href="material">
-        <div className="block__title">Material</div>
+        <div className="block__title">contact</div>
         <div className="block__number">03</div>
       </div>
-      <div className="block init" data-block-section="4" data-href="production">
+      {/* <div className="block init" data-block-section="4" data-href="production">
         <div className="block__title">Production</div>
         <div className="block__number">04</div>
       </div>
       <div className="block init" data-block-section="5" data-href="journal">
         <div className="block__title">Journal</div>
         <div className="block__number">05</div>
-      </div>
+      </div> */}
     </div>
     <main data-scroll-container>
       <div className="wrap" data-scroll-section>
         <section className="section home" data-block-section="1" id="home">
-          Home Lorem Ipsum is <br />
-          simply dummy text of the <br />
-          printing and typesetting <br />industry.
+          Luckycat Tattoo <br />
+          Private Studio <br />
+          Black & Grey <br /> Coming Soon.
+          {/* <img src='../assests/images/' /> */}
         </section>
         <section
           className="section collection"
@@ -91,7 +92,7 @@ const Home = () => {
           simply dummy text of the <br />
           printing and typesetting <br />industry.
         </section>
-        <section
+        {/* <section
           className="section production"
           data-block-section="4"
           id="production"
@@ -104,7 +105,7 @@ const Home = () => {
           Journal Lorem Ipsum is <br />
           simply dummy text of the <br />
           printing and typesetting <br />industry.
-        </section>
+        </section> */}
       </div>
     </main>
     </>
