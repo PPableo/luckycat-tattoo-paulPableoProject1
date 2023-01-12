@@ -1,5 +1,6 @@
-import './App.css';
+import './App.scss';
 import Home from './pages/Home';
+import './assests/styles/GrifinitoL.ttf'
 
 function App() {
   return (

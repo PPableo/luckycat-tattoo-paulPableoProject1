@@ -1,6 +1,6 @@
 import React from 'react'
-import LocomotiveScroll from 'locomotive-scroll';
 import { useEffect } from 'react';
+import LocomotiveScroll from 'locomotive-scroll';
 
 const Home = () => {
   const scrollRef = React.createRef();
@@ -10,6 +10,7 @@ const Home = () => {
       el: document.querySelector("[data-scroll-container]"),
       smooth: true,
       direction: "horizontal",
+      scrollFromAnywhere: true,
     });
 
     let blocks = document.querySelectorAll(".block[data-block-section]");
@@ -73,10 +74,10 @@ const Home = () => {
     <main data-scroll-container>
       <div className="wrap" data-scroll-section>
         <section className="section home" data-block-section="1" id="home">
-          Luckycat Tattoo <br />
+          <img src={require('../assests/images/logo.png')} />
+          {/* Luckycat Tattoo <br /> */}
           Private Studio <br />
           Black & Grey <br /> Coming Soon.
-          {/* <img src='../assests/images/' /> */}
         </section>
         <section
           className="section collection"
